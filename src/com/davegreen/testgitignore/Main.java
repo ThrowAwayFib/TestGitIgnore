@@ -17,10 +17,12 @@ public class Main
      */
     public static void main(String[] args)
     {
-        System.out.println("Testing git ignore.");
+        Dog dog = new Dog("Pug");
         
-        System.out.println("Another line of code.");
+        System.out.println("The breed of the dog is a " + dog.getBreed() + ".");
         
-        System.out.println("A further line of code.");
+        dog.setBreed("French Bulldog");
+        
+        System.out.println("The breed of the dog is now a " + dog.getBreed() + ".");
     }
 }
