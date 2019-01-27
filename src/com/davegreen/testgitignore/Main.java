@@ -28,5 +28,13 @@ public class Main
         dog.setBreed("Lab");
         
         System.out.println("The breed of the dog is now a " + dog.getBreed() + ".");
+        
+        Animal animal = new Animal("Cat");
+        
+        System.out.println("The type of animal is an " + animal.getType() + ".");
+        
+        animal.setType("Rabbit");
+        
+        System.out.println("The type of animal is now a " + animal.getType() + ".");
     }
 }
