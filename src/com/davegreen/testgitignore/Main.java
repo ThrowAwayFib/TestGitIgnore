@@ -24,5 +24,9 @@ public class Main
         dog.setBreed("French Bulldog");
         
         System.out.println("The breed of the dog is now a " + dog.getBreed() + ".");
+        
+        dog.setBreed("Lab");
+        
+        System.out.println("The breed of the dog is now a " + dog.getBreed() + ".");
     }
 }
