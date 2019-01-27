@@ -20,5 +20,7 @@ public class Main
         System.out.println("Testing git ignore.");
         
         System.out.println("Another line of code.");
+        
+        System.out.println("A further line of code.");
     }
 }
